@@ -1,0 +1,59 @@
+/* pages/NFTTradingRoom.module.css */
+
+.tradingRoom {
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+    font-family: 'SF Pro Text', 'Helvetica Neue', sans-serif;
+}
+
+.column {
+    flex: 1;
+    margin: 0 10px;
+}
+
+.wallet {
+    padding: 20px;
+    border: 1px solid #d1d1d1;
+    border-radius: 10px;
+    background-color: #f1f1f1;
+    margin-bottom: 20px;
+}
+
+.nftCollection {
+    flex-grow: 1;
+    border: 1px dashed #d1d1d1;
+    padding: 20px;
+    border-radius: 10px;
+    background-color: #f8f8f8;
+    height:600px;
+}
+
+.tradingTable {
+    flex-grow: 1;
+    border: 2px dashed #d1d1d1;
+    padding: 20px;
+    border-radius: 10px;
+    background-color: #ffffff;
+    margin-bottom: 20px;
+    height: 580px;
+}
+
+.tradeValue {
+    text-align: right;
+    margin-bottom: 20px;
+}
+
+.tradeButton {
+    background-color: #007aff;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 10px;
+    cursor: pointer;
+    transition: background-color 0.2s;
+}
+
+.tradeButton:hover {
+    background-color: #005bb5;
+}

@@ -1,0 +1,19 @@
+{
+  "env": {
+    "node": true
+  },
+  "ignorePatterns": ["node_modules/"], // <-- Added this line
+  "parser": "@typescript-eslint/parser",
+  "extends": ["plugin:prettier/recommended", "plugin:@typescript-eslint/recommended"],
+  "rules": {
+    "@typescript-eslint/no-unused-vars": ["error"],
+    "@typescript-eslint/no-explicit-any": ["off"],
+    "prettier/prettier": [
+      "warn",
+      {
+        "endOfLine": "auto"
+      }
+    ],
+    "react/no-unescaped-entities": "off"
+  }
+}
